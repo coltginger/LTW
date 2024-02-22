@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+.ingredient{
+    color:rgb(35, 128, 97);
+}
+
+header > h1{
+    font-family: "Imperial Script";
+    font-weight: 400;
+    font-size: 9em;
+    text-align: center ;
+}
+
+body{
+    width: 60%;
+    margin: 0 auto;
+}
+
+main {
+    background-color: bisque;
+}
+
+h2 {
+    text-align: right;
+    border-bottom: 2px solid black;
+}
+
