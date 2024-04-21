@@ -1,4 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,700');
+
 body{
+    padding: 1em;
     width: 55%;
     margin: 0 auto;
+    font-family: "Poppins";
+}
+
+body > header{
+    padding: 1em;
+    background-color: #046DD5;
+}
+
+body > header h1 {
+    line-height: 0;
+    font-size: 2.5em;
+}
+
+body > header h2{
+    line-height: 20px;
+    font-size: 2.5em;
+    font-weight: 1;
+}
+
+body > header div{
+    font-size: 1.5em;
+    line-height: 30px;
+}
+
+body > header a{
+    color: white;
+    text-decoration: none;
+}
+
+body nav a{
+    color: black;
+    text-decoration: none;
+}
+body #menu ul{
+    padding-left: 0;
+}
+body #menu li{
+    list-style-type: none;
+}
+
+body #menu li:first-child{
+    border-top: 4px solid #E1493E;
+}
+body #menu li:nth-child(2){
+    border-top: 4px solid #8ABA56;
+}
+body #menu li:nth-child(3){
+    border-top: 4px solid #5B4282;
+}
+body #menu li:nth-child(4){
+    border-top: 4px solid #FF8932;
+}
+body #menu li:nth-child(5){
+    border-top: 4px solid #19B6E9;
+}
+body #menu li:nth-child(6){
+    border-top: 4px solid #E84C8B;
+}
+
+aside {
+    color: white;
+    padding: 1em;
+    background-color: #2A2F33;
+}
+aside p{
+    font-family: "Lora";
+}
+aside a{
+    color: white;
+    text-decoration: none;
 }
